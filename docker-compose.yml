@@ -1,0 +1,85 @@
+version: "3.7"
+services:
+    hlapp:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: php:8.0.2-fpm
+        container_name: hlapp
+        restart: unless-stopped
+        tty: true
+        volumes:
+            - ./:/var/www/
+            - ./docker/php.ini:/usr/local/etc/php/conf.d/laravel.ini
+        networks:
+            - app-network
+
+    #Nginx Service
+    hlwebserver:
+        image: nginx:alpine
+        container_name: hlngnix
+        restart: unless-stopped
+        tty: true
+        ports:
+            - "80:80"
+        #   - "443:443"
+        volumes:
+            - ./:/var/www/
+            - ./docker/conf.d/:/etc/nginx/conf.d/
+        networks:
+            - app-network
+
+    #MySQL Service
+    hldb:
+        image: mysql:8.0
+        container_name: hldb
+        restart: always
+        tty: true
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: KETtnS2qHHV4qA
+            MYSQL_DATABASE: default_schema
+        volumes:
+            - dbdata:/var/lib/mysql/
+        networks:
+            - app-network
+
+    hlphpmyadmin:
+        depends_on:
+            - hldb
+        image: phpmyadmin/phpmyadmin
+        container_name: hlpma
+        volumes:
+            - ./docker/uploads.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+        environment:
+            PMA_HOST: hldb
+            PMA_ARBITRARY: 1
+            MYSQL_DATABASE: app
+            MYSQL_ROOT_PASSWORD: KETtnS2qHHV4qA
+            UPLOAD_LIMIT: 300M
+        restart: always
+        ports:
+            - 2025:80
+        networks:
+            - app-network
+    cron:
+        build:
+            context: ./docker/cron
+            dockerfile: Dockerfile
+        image: supervisord
+        container_name: cron
+        volumes:
+            - ./:/var/www/:z
+        depends_on:
+            - hlapp
+        networks:
+            - app-network
+    #Docker Networks
+networks:
+    app-network:
+        driver: bridge
+#Volumes
+volumes:
+    dbdata:
+        driver: local

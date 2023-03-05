@@ -1,0 +1,260 @@
+2023-02-01 14:08:18,582 INFO Set uid to user 0 succeeded
+2023-02-01 14:08:18,588 INFO supervisord started with pid 1
+2023-02-01 14:08:19,591 INFO spawned: 'laravel-worker_00' with pid 10
+2023-02-01 14:08:19,592 INFO spawned: 'laravel-worker_01' with pid 11
+2023-02-01 14:08:19,594 INFO spawned: 'laravel-worker_02' with pid 12
+2023-02-01 14:08:19,595 INFO spawned: 'laravel-worker_03' with pid 13
+2023-02-01 14:08:19,597 INFO spawned: 'laravel-schedule_01' with pid 14
+2023-02-01 14:08:19,599 INFO spawned: 'laravel-schedule_00' with pid 15
+2023-02-01 14:08:19,601 INFO spawned: 'laravel-schedule_03' with pid 16
+2023-02-01 14:08:19,603 INFO spawned: 'laravel-schedule_02' with pid 17
+2023-02-01 14:08:20,605 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 14:08:20,606 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 14:08:20,606 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 14:08:20,607 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 14:08:20,607 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 14:08:20,607 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 14:08:20,608 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 14:08:20,608 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:44:16,435 WARN received SIGQUIT indicating exit request
+2023-02-01 15:44:16,435 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02, laravel-worker_03, laravel-schedule_01, laravel-schedule_00, laravel-schedule_03, laravel-schedule_02 to die
+2023-02-01 15:44:16,438 INFO stopped: laravel-schedule_02 (terminated by SIGTERM)
+2023-02-01 15:44:16,438 INFO stopped: laravel-schedule_01 (terminated by SIGTERM)
+2023-02-01 15:44:16,439 INFO stopped: laravel-schedule_00 (terminated by SIGTERM)
+2023-02-01 15:44:16,439 INFO stopped: laravel-schedule_03 (terminated by SIGTERM)
+2023-02-01 15:44:16,444 INFO stopped: laravel-worker_03 (terminated by SIGTERM)
+2023-02-01 15:44:16,444 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2023-02-01 15:44:16,444 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2023-02-01 15:44:16,445 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2023-02-01 15:44:16,445 INFO reaped unknown pid 1164
+2023-02-01 15:44:16,445 INFO reaped unknown pid 1172
+2023-02-01 15:44:16,445 INFO reaped unknown pid 1191
+2023-02-01 15:44:16,445 INFO reaped unknown pid 1171
+2023-02-01 15:45:02,474 INFO Set uid to user 0 succeeded
+2023-02-01 15:45:02,478 INFO supervisord started with pid 1
+2023-02-01 15:45:03,484 INFO spawned: 'laravel-worker_00' with pid 9
+2023-02-01 15:45:03,485 INFO spawned: 'laravel-worker_01' with pid 10
+2023-02-01 15:45:03,487 INFO spawned: 'laravel-worker_02' with pid 11
+2023-02-01 15:45:03,488 INFO spawned: 'laravel-worker_03' with pid 12
+2023-02-01 15:45:03,490 INFO spawned: 'laravel-schedule_01' with pid 13
+2023-02-01 15:45:03,492 INFO spawned: 'laravel-schedule_00' with pid 14
+2023-02-01 15:45:03,494 INFO spawned: 'laravel-schedule_03' with pid 15
+2023-02-01 15:45:03,497 INFO spawned: 'laravel-schedule_02' with pid 16
+2023-02-01 15:45:04,499 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:45:04,499 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:45:04,500 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:45:04,500 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:45:04,501 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:45:04,501 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:45:04,501 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:45:04,502 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:08,724 WARN received SIGQUIT indicating exit request
+2023-02-01 15:48:08,725 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02, laravel-worker_03, laravel-schedule_01, laravel-schedule_00, laravel-schedule_03, laravel-schedule_02 to die
+2023-02-01 15:48:08,728 INFO stopped: laravel-schedule_02 (terminated by SIGTERM)
+2023-02-01 15:48:08,728 INFO stopped: laravel-schedule_01 (terminated by SIGTERM)
+2023-02-01 15:48:08,728 INFO stopped: laravel-schedule_00 (terminated by SIGTERM)
+2023-02-01 15:48:08,729 INFO stopped: laravel-schedule_03 (terminated by SIGTERM)
+2023-02-01 15:48:08,734 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2023-02-01 15:48:08,735 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2023-02-01 15:48:08,735 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2023-02-01 15:48:08,735 INFO stopped: laravel-worker_03 (terminated by SIGTERM)
+2023-02-01 15:48:08,736 INFO reaped unknown pid 1062
+2023-02-01 15:48:08,736 INFO reaped unknown pid 1061
+2023-02-01 15:48:08,736 INFO reaped unknown pid 1087
+2023-02-01 15:48:08,736 INFO reaped unknown pid 1060
+2023-02-01 15:48:10,271 INFO Set uid to user 0 succeeded
+2023-02-01 15:48:10,275 INFO supervisord started with pid 1
+2023-02-01 15:48:11,279 INFO spawned: 'laravel-worker_00' with pid 10
+2023-02-01 15:48:11,284 INFO spawned: 'laravel-worker_01' with pid 11
+2023-02-01 15:48:11,288 INFO spawned: 'laravel-worker_02' with pid 12
+2023-02-01 15:48:11,290 INFO spawned: 'laravel-worker_03' with pid 13
+2023-02-01 15:48:11,292 INFO spawned: 'laravel-schedule_01' with pid 14
+2023-02-01 15:48:11,294 INFO spawned: 'laravel-schedule_00' with pid 15
+2023-02-01 15:48:11,296 INFO spawned: 'laravel-schedule_03' with pid 16
+2023-02-01 15:48:11,298 INFO spawned: 'laravel-schedule_02' with pid 17
+2023-02-01 15:48:12,299 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:12,299 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:12,300 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:12,300 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:12,300 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:12,300 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:12,301 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:12,301 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:38,476 WARN received SIGQUIT indicating exit request
+2023-02-01 15:48:38,477 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02, laravel-worker_03, laravel-schedule_01, laravel-schedule_00, laravel-schedule_03, laravel-schedule_02 to die
+2023-02-01 15:48:38,480 INFO stopped: laravel-schedule_01 (terminated by SIGTERM)
+2023-02-01 15:48:38,481 INFO stopped: laravel-schedule_00 (terminated by SIGTERM)
+2023-02-01 15:48:38,481 INFO stopped: laravel-schedule_03 (terminated by SIGTERM)
+2023-02-01 15:48:38,481 INFO stopped: laravel-schedule_02 (terminated by SIGTERM)
+2023-02-01 15:48:38,488 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2023-02-01 15:48:38,488 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2023-02-01 15:48:38,488 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2023-02-01 15:48:38,489 INFO stopped: laravel-worker_03 (terminated by SIGTERM)
+2023-02-01 15:48:38,489 INFO reaped unknown pid 192
+2023-02-01 15:48:38,489 INFO reaped unknown pid 178
+2023-02-01 15:48:38,489 INFO reaped unknown pid 193
+2023-02-01 15:48:38,490 INFO reaped unknown pid 179
+2023-02-01 15:48:39,808 INFO Set uid to user 0 succeeded
+2023-02-01 15:48:39,812 INFO supervisord started with pid 1
+2023-02-01 15:48:40,815 INFO spawned: 'laravel-worker_00' with pid 9
+2023-02-01 15:48:40,816 INFO spawned: 'laravel-worker_01' with pid 10
+2023-02-01 15:48:40,819 INFO spawned: 'laravel-worker_02' with pid 11
+2023-02-01 15:48:40,821 INFO spawned: 'laravel-worker_03' with pid 12
+2023-02-01 15:48:40,823 INFO spawned: 'laravel-schedule_01' with pid 13
+2023-02-01 15:48:40,825 INFO spawned: 'laravel-schedule_00' with pid 14
+2023-02-01 15:48:40,827 INFO spawned: 'laravel-schedule_03' with pid 15
+2023-02-01 15:48:40,829 INFO spawned: 'laravel-schedule_02' with pid 16
+2023-02-01 15:48:41,831 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:41,831 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:41,832 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:41,832 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:41,832 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:41,832 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:41,832 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:48:41,833 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:49:51,289 WARN received SIGQUIT indicating exit request
+2023-02-01 15:49:51,290 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02, laravel-worker_03, laravel-schedule_01, laravel-schedule_00, laravel-schedule_03, laravel-schedule_02 to die
+2023-02-01 15:49:51,293 INFO stopped: laravel-schedule_01 (terminated by SIGTERM)
+2023-02-01 15:49:51,293 INFO stopped: laravel-schedule_00 (terminated by SIGTERM)
+2023-02-01 15:49:51,294 INFO stopped: laravel-schedule_03 (terminated by SIGTERM)
+2023-02-01 15:49:51,294 INFO stopped: laravel-schedule_02 (terminated by SIGTERM)
+2023-02-01 15:49:51,299 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2023-02-01 15:49:51,299 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2023-02-01 15:49:51,299 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2023-02-01 15:49:51,300 INFO stopped: laravel-worker_03 (terminated by SIGTERM)
+2023-02-01 15:49:51,300 INFO reaped unknown pid 425
+2023-02-01 15:49:51,300 INFO reaped unknown pid 450
+2023-02-01 15:49:51,300 INFO reaped unknown pid 452
+2023-02-01 15:49:51,301 INFO reaped unknown pid 451
+2023-02-01 15:50:11,426 INFO Set uid to user 0 succeeded
+2023-02-01 15:50:11,430 INFO supervisord started with pid 1
+2023-02-01 15:50:12,433 INFO spawned: 'laravel-worker_00' with pid 10
+2023-02-01 15:50:12,435 INFO spawned: 'laravel-worker_01' with pid 11
+2023-02-01 15:50:12,437 INFO spawned: 'laravel-worker_02' with pid 12
+2023-02-01 15:50:12,439 INFO spawned: 'laravel-worker_03' with pid 13
+2023-02-01 15:50:12,441 INFO spawned: 'laravel-schedule_01' with pid 14
+2023-02-01 15:50:12,443 INFO spawned: 'laravel-schedule_00' with pid 15
+2023-02-01 15:50:12,445 INFO spawned: 'laravel-schedule_03' with pid 16
+2023-02-01 15:50:12,446 INFO spawned: 'laravel-schedule_02' with pid 17
+2023-02-01 15:50:13,448 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:50:13,449 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:50:13,449 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:50:13,449 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:50:13,449 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:50:13,450 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:50:13,450 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:50:13,450 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:53:21,289 WARN received SIGQUIT indicating exit request
+2023-02-01 15:53:21,289 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02, laravel-worker_03, laravel-schedule_01, laravel-schedule_00, laravel-schedule_03, laravel-schedule_02 to die
+2023-02-01 15:53:21,293 INFO stopped: laravel-schedule_01 (terminated by SIGTERM)
+2023-02-01 15:53:21,293 INFO stopped: laravel-schedule_00 (terminated by SIGTERM)
+2023-02-01 15:53:21,293 INFO stopped: laravel-schedule_03 (terminated by SIGTERM)
+2023-02-01 15:53:21,294 INFO stopped: laravel-schedule_02 (terminated by SIGTERM)
+2023-02-01 15:53:21,299 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2023-02-01 15:53:21,299 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2023-02-01 15:53:21,299 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2023-02-01 15:53:21,300 INFO stopped: laravel-worker_03 (terminated by SIGTERM)
+2023-02-01 15:53:21,300 INFO reaped unknown pid 1133
+2023-02-01 15:53:21,300 INFO reaped unknown pid 1131
+2023-02-01 15:53:21,300 INFO reaped unknown pid 1132
+2023-02-01 15:53:21,300 INFO reaped unknown pid 1130
+2023-02-01 15:53:30,972 INFO Set uid to user 0 succeeded
+2023-02-01 15:53:30,976 INFO supervisord started with pid 1
+2023-02-01 15:53:31,979 INFO spawned: 'laravel-worker_00' with pid 9
+2023-02-01 15:53:31,981 INFO spawned: 'laravel-worker_01' with pid 10
+2023-02-01 15:53:31,983 INFO spawned: 'laravel-worker_02' with pid 11
+2023-02-01 15:53:31,985 INFO spawned: 'laravel-worker_03' with pid 12
+2023-02-01 15:53:31,989 INFO spawned: 'laravel-schedule_01' with pid 13
+2023-02-01 15:53:31,991 INFO spawned: 'laravel-schedule_00' with pid 14
+2023-02-01 15:53:31,993 INFO spawned: 'laravel-schedule_03' with pid 15
+2023-02-01 15:53:31,994 INFO spawned: 'laravel-schedule_02' with pid 16
+2023-02-01 15:53:32,996 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:53:32,996 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:53:32,996 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:53:32,997 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:53:32,997 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:53:32,998 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:53:32,998 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:53:32,998 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:54:47,835 WARN received SIGQUIT indicating exit request
+2023-02-01 15:54:47,835 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02, laravel-worker_03, laravel-schedule_01, laravel-schedule_00, laravel-schedule_03, laravel-schedule_02 to die
+2023-02-01 15:54:47,839 INFO stopped: laravel-schedule_02 (terminated by SIGTERM)
+2023-02-01 15:54:47,839 INFO stopped: laravel-schedule_01 (terminated by SIGTERM)
+2023-02-01 15:54:47,840 INFO stopped: laravel-schedule_00 (terminated by SIGTERM)
+2023-02-01 15:54:47,840 INFO stopped: laravel-schedule_03 (terminated by SIGTERM)
+2023-02-01 15:54:47,847 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2023-02-01 15:54:47,847 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2023-02-01 15:54:47,847 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2023-02-01 15:54:47,848 INFO stopped: laravel-worker_03 (terminated by SIGTERM)
+2023-02-01 15:54:47,848 INFO reaped unknown pid 452
+2023-02-01 15:54:47,848 INFO reaped unknown pid 453
+2023-02-01 15:54:47,849 INFO reaped unknown pid 451
+2023-02-01 15:54:47,849 INFO reaped unknown pid 450
+2023-02-01 15:54:59,032 INFO Set uid to user 0 succeeded
+2023-02-01 15:54:59,035 INFO supervisord started with pid 1
+2023-02-01 15:55:00,039 INFO spawned: 'laravel-worker_00' with pid 9
+2023-02-01 15:55:00,041 INFO spawned: 'laravel-worker_01' with pid 10
+2023-02-01 15:55:00,042 INFO spawned: 'laravel-worker_02' with pid 11
+2023-02-01 15:55:00,047 INFO spawned: 'laravel-worker_03' with pid 12
+2023-02-01 15:55:00,048 INFO spawned: 'laravel-schedule_01' with pid 13
+2023-02-01 15:55:00,050 INFO spawned: 'laravel-schedule_00' with pid 14
+2023-02-01 15:55:00,052 INFO spawned: 'laravel-schedule_03' with pid 15
+2023-02-01 15:55:00,054 INFO spawned: 'laravel-schedule_02' with pid 16
+2023-02-01 15:55:01,056 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:55:01,056 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:55:01,056 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:55:01,057 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:55:01,057 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:55:01,057 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:55:01,057 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 15:55:01,058 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 16:04:29,468 WARN received SIGQUIT indicating exit request
+2023-02-01 16:04:29,469 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02, laravel-worker_03, laravel-schedule_01, laravel-schedule_00, laravel-schedule_03, laravel-schedule_02 to die
+2023-02-01 16:04:29,473 INFO stopped: laravel-schedule_00 (terminated by SIGTERM)
+2023-02-01 16:04:29,473 INFO stopped: laravel-schedule_01 (terminated by SIGTERM)
+2023-02-01 16:04:29,473 INFO stopped: laravel-schedule_03 (terminated by SIGTERM)
+2023-02-01 16:04:29,474 INFO stopped: laravel-schedule_02 (terminated by SIGTERM)
+2023-02-01 16:04:29,480 INFO stopped: laravel-worker_03 (terminated by SIGTERM)
+2023-02-01 16:04:29,480 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2023-02-01 16:04:29,480 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2023-02-01 16:04:29,481 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2023-02-01 16:04:29,481 INFO reaped unknown pid 3293
+2023-02-01 16:04:29,481 INFO reaped unknown pid 3320
+2023-02-01 16:04:29,482 INFO reaped unknown pid 3300
+2023-02-01 16:04:29,482 INFO reaped unknown pid 3301
+2023-02-01 16:04:53,448 INFO Set uid to user 0 succeeded
+2023-02-01 16:04:53,452 INFO supervisord started with pid 1
+2023-02-01 16:04:54,456 INFO spawned: 'laravel-worker_00' with pid 10
+2023-02-01 16:04:54,458 INFO spawned: 'laravel-worker_01' with pid 11
+2023-02-01 16:04:54,460 INFO spawned: 'laravel-worker_02' with pid 12
+2023-02-01 16:04:54,465 INFO spawned: 'laravel-worker_03' with pid 13
+2023-02-01 16:04:54,467 INFO spawned: 'laravel-schedule_01' with pid 14
+2023-02-01 16:04:54,469 INFO spawned: 'laravel-schedule_00' with pid 15
+2023-02-01 16:04:54,471 INFO spawned: 'laravel-schedule_03' with pid 16
+2023-02-01 16:04:54,474 INFO spawned: 'laravel-schedule_02' with pid 17
+2023-02-01 16:04:55,475 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 16:04:55,475 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 16:04:55,476 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 16:04:55,476 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 16:04:55,476 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 16:04:55,476 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 16:04:55,477 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-01 16:04:55,477 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-02 08:04:45,745 INFO Set uid to user 0 succeeded
+2023-02-02 08:04:45,753 INFO supervisord started with pid 1
+2023-02-02 08:04:46,756 INFO spawned: 'laravel-worker_00' with pid 9
+2023-02-02 08:04:46,758 INFO spawned: 'laravel-worker_01' with pid 10
+2023-02-02 08:04:46,760 INFO spawned: 'laravel-worker_02' with pid 11
+2023-02-02 08:04:46,764 INFO spawned: 'laravel-worker_03' with pid 12
+2023-02-02 08:04:46,766 INFO spawned: 'laravel-schedule_01' with pid 13
+2023-02-02 08:04:46,767 INFO spawned: 'laravel-schedule_00' with pid 14
+2023-02-02 08:04:46,770 INFO spawned: 'laravel-schedule_03' with pid 15
+2023-02-02 08:04:46,771 INFO spawned: 'laravel-schedule_02' with pid 16
+2023-02-02 08:04:47,773 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-02 08:04:47,774 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-02 08:04:47,774 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-02 08:04:47,774 INFO success: laravel-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-02 08:04:47,775 INFO success: laravel-schedule_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-02 08:04:47,775 INFO success: laravel-schedule_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-02 08:04:47,775 INFO success: laravel-schedule_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-02-02 08:04:47,776 INFO success: laravel-schedule_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
